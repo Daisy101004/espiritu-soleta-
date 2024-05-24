@@ -1,0 +1,341 @@
+body img {
+  width: 20;
+  font-family: 'Playfair Display', serif;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #f5f5f5;
+}
+
+nav {
+  background-color: #f9f0e3;
+  padding: 25px 5px 0px;
+  flex: 1;
+  text-align: right;
+}
+
+nav .logo {
+  display: flex;
+  align-items: center;
+}
+
+nav .logo a {
+  display: flex;
+  align-items: center;
+  width: 10px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+nav .logo a img {
+  height: 95px; /* Adjust the height as desired */
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 10;
+}
+
+nav .special {
+  position: absolute;
+  top: 0;
+}
+
+nav .special:nth-child(1) {
+  left: 0;
+}
+
+nav .special:nth-child(2) {
+  left: 70px;
+}
+
+nav li {
+  display: inline;
+  margin-right: 40px;
+}
+
+nav a {
+  color: #8c5d3d;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.navigation-links {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navigation-links .special {
+  order: -1;
+  margin-right: 10px;
+}
+
+section {
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  background-color: #fff;
+}
+
+h2 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.menu-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.menu-item img {
+  width: 200px; /* Adjust the width as needed */
+  height: auto;
+  margin-right: 10px;
+}
+
+.menu-item-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-item h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.price-and-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.menu-item .price {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.menu-item button {
+  width: 120px;
+  border: 0;
+  padding: 12px 8px;
+  outline: none;
+  color: #fff;
+  background: linear-gradient(to right, #333, #333);
+  border-radius: 6px;
+  cursor: pointer;
+  transition: width 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu-item button img {
+  width: 30px;
+  display: none;
+}
+
+.menu-item button:hover img {
+  display: block;
+  margin-left: 5px;
+}
+
+.menu-item button:hover {
+  width: 160px;
+}
+
+footer {
+  text-align: center;
+  background-color: #f9f0e3;
+  padding: 10px;
+}
+
+.banner-image {
+  text-align: center;
+}
+
+.banner-image img {
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+}
+
+.social-links img{
+  height: 15px;
+  margin: 5px;
+  cursor: pointer;
+}
+.social-links{
+  text-align: center;
+} 
+
+/* Add your CSS styles specific to the order.html page here */
+
+header {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+}
+
+main {
+  margin: 20px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+#order-details {
+  margin-bottom: 20px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+
+  body {
+    font-family:  sans-serif;
+    background-color: #f5f5f5;
+  }
+
+  nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+  }
+
+  main {
+    padding: 20px;
+  }
+
+  h2 {
+    margin-bottom: 10px;
+  }
+
+  form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+
+  button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+
+  footer {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+  }
+
+
+/* Add your CSS styles specific to the login.html and signup.html pages here */
+
+form {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+form button[type="submit"] {
+  width: 100%;
+  padding: 12px 0;
+  border: 0;
+  outline: none;
+  color: #fff;
+  background-color: #333;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+form button[type="submit"]:hover {
+  background-color: #222;
+}
+
+footer about{
+  height: 15px;
+}
